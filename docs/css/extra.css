@@ -1,9 +1,13 @@
-/* :root > * {
-    --md-primary-fg-color: #FF007B;
-    --md-primary-fg-color--light: #FF007B;
-    --md-primary-fg-color--dark:  #66ebff;
-    --md-accent-fg-color: #66ebff;
-} */
+:root > * {
+    --md-primary-fg-color: #A52466;
+    --md-primary-fg-color--light: #A52466;
+    --md-primary-fg-color--dark:  #A52466;
+    --md-accent-fg-color: green;
+}
+
+.md-header {
+    background: linear-gradient(160deg, #17222B, 80%, #A52466);
+}
 
 .md-header__topic > span.md-ellipsis,
 label.md-nav__title {
