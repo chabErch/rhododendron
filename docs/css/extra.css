@@ -5,7 +5,8 @@
     --md-accent-fg-color: #66ebff;
 } */
 
-.md-header__topic > span.md-ellipsis {
+.md-header__topic > span.md-ellipsis,
+label.md-nav__title {
     font-family: "Nova Slim";
     font-weight: 400;
     letter-spacing: 0.04rem;
