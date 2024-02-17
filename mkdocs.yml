@@ -4,17 +4,20 @@ site_author: chaberch
 copyright: Copyright &copy; 2022 chaberch
 
 theme:
-  name: material
-  logo: assets/logo-24-24.svg
-  favicon: assets/logo-24-24.svg
-  palette:
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to light mode
+    name: material
+    logo: assets/logo-24-24.svg
+    favicon: assets/logo-24-24.svg
+    palette:
+        # Palette toggle for light mode
+        - scheme: default
+          toggle:
+              icon: material/lightbulb
+              name: Switch to dark mode
+        # Palette toggle for dark mode
+        - scheme: slate
+          toggle:
+              icon: material/lightbulb-outline
+              name: Switch to light mode
+
+extra_css:
+    - css/extra.css

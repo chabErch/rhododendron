@@ -1,0 +1,10 @@
+/* :root > * {
+    --md-primary-fg-color: #FF007B;
+    --md-primary-fg-color--light: #FF007B;
+    --md-primary-fg-color--dark:  #66ebff;
+    --md-accent-fg-color: #66ebff;
+} */
+
+span.md-ellipsis {
+    font-family: "Nova Slim";
+}
