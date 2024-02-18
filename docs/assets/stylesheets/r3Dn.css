@@ -87,7 +87,9 @@
 }
 
 .md-header__topic:first-child,
-label.md-nav__title[data-md-component="header-title"] {
+label.md-nav__title[data-md-component="header-title"],
+label.md-nav__title[for="__drawer"],
+label.md-nav__title[for=__toc] {
     font-family: var(--r3dn-header-font);
     font-weight: normal;
     font-style: normal;
@@ -113,4 +115,9 @@ label.md-nav__title[data-md-component="header-title"] {
 p {
     font-weight: 300;
     letter-spacing: .02em;  /* For Roboto only */
+}
+
+/* neoteroi */
+[data-md-color-scheme=slate] .nt-card{
+    box-shadow: 0 11px 2px 0 rgba(4, 40, 33, 0.14), 0 3px 3px -3px rgba(40, 86, 94, 0.47), 0 1px 8px 0 rgba(36, 102, 165, 0.38);
 }
