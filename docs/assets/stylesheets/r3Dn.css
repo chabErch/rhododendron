@@ -87,7 +87,7 @@
 }
 
 .md-header__topic:first-child,
-label.md-nav__title {
+label.md-nav__title[data-md-component="header-title"] {
     font-family: var(--r3dn-header-font);
     font-weight: normal;
     font-style: normal;
@@ -112,4 +112,5 @@ label.md-nav__title {
 
 p {
     font-weight: 300;
+    letter-spacing: .02em;  /* For Roboto only */
 }

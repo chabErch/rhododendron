@@ -5,7 +5,7 @@ copyright: Copyright &copy; 2024 chaberch
 
 nav:
   - Проблемы печати:
-    - Проблемы печати: 'проблемы-печати/проблемы-печати.md'
+    - 'проблемы-печати/index.md'
     - Слоновья нога L: 'проблемы-печати/слоновья-нога-l.md'
     - Слоновья нога H: 'проблемы-печати/слоновья-нога-h.md'
 
@@ -14,6 +14,16 @@ theme:
   logo: assets/logo-24-24.svg
   favicon: assets/logo-24-24.svg
   font: false
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    # - toc.integrate
+    # - content.action.view
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -30,3 +40,7 @@ theme:
 
 extra_css:
   - assets/stylesheets/r3Dn.css
+
+plugins:
+  - search:
+      lang: ru

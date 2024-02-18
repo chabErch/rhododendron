@@ -1,9 +1,5 @@
 # rhododendron
 
-regular
+![Welcome](index.assets/welcome.png)
 
-**bold**
-
-_italic_
-
-`code`
+regular, **bold**, _italic_, `code`
