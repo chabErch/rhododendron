@@ -1,0 +1,27 @@
+:root > * {
+    --md-primary-fg-color: #a52466;
+    --md-primary-fg-color--light: #a52466;
+    --md-primary-fg-color--dark: #a52466;
+    --md-accent-fg-color: green;
+}
+
+@font-face {
+    font-family: "Nova Slim";
+    src: url("../fonts/Nova_Slim/NovaSlim-Regular.ttf");
+}
+
+:root {
+    --r3dn-header-font: "Nova Slim";
+}
+
+.md-header {
+    background: linear-gradient(160deg, #17222b, 80%, #a52466);
+}
+
+.md-header__topic:first-child,
+label.md-nav__title {
+    font-family: var(--r3dn-header-font);
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.04rem;
+}
