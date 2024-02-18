@@ -1,13 +1,55 @@
+@font-face {
+    font-family: "Nova Slim";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Nova_Slim/NovaSlim-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+    src: url("../fonts/Roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    src: url("../fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+
 :root > * {
     --md-primary-fg-color: #a52466;
     --md-primary-fg-color--light: #a52466;
     --md-primary-fg-color--dark: #a52466;
     --md-accent-fg-color: green;
+
+    --md-text-font: "Roboto";
+    --md-code-font: "Roboto Mono";
 }
 
-@font-face {
-    font-family: "Nova Slim";
-    src: url("../fonts/Nova_Slim/NovaSlim-Regular.ttf");
+[data-md-color-scheme="slate"] {
+    /* --md-default-bg-color: #17191F */
+    --md-default-bg-color: #14161c;
 }
 
 :root {
@@ -15,7 +57,8 @@
 }
 
 .md-header {
-    background: linear-gradient(160deg, #17222b, 80%, #a52466);
+    /* background: linear-gradient(160deg, #17222b, 88%, #a52466); */
+    background: linear-gradient(166deg, #17222b, 90%, #a52466);
 }
 
 .md-header__topic:first-child,
@@ -24,4 +67,26 @@ label.md-nav__title {
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.04rem;
+}
+
+@media screen and (max-width: 76.234375em) {
+    .md-nav--primary .md-nav__title[for="__drawer"] {
+        /* background: linear-gradient(160deg, #17222b, 88%, #a52466); */
+        background-color: #17222b;
+        /* color: var(--md-primary-bg-color); */
+        font-weight: normal;
+    }
+
+    .md-nav__source {
+        background: linear-gradient(166deg, #17222b, 90%, #a52466);
+        /* background-color: var(--md-primary-fg-color--dark); */
+        /* color: var(--md-primary-bg-color); */
+        /* display: block; */
+        /* padding: 0 .2rem */
+    }
+}
+
+.md-header__source,
+.md-nav__source {
+    color: rgba(255, 255, 255, .38);
 }

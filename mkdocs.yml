@@ -11,11 +11,13 @@ theme:
   palette:
     # Palette toggle for dark mode
     - scheme: slate
+      primary: custom
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
     # Palette toggle for light mode
     - scheme: default
+      primary: custom
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
