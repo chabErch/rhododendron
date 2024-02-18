@@ -15,10 +15,26 @@
 
 @font-face {
     font-family: "Roboto";
+    font-style: italic;
+    font-weight: 300;
+    font-display: fallback;
+    src: url("../fonts/Roboto/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
     src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
 }
 
 @font-face {
@@ -37,11 +53,18 @@
     src: url("../fonts/Roboto_Mono/RobotoMono-Regular.ttf");
 }
 
-:root  {
+:root {
     --r3dn-color-primary: #a52466;
-    --r3dn-color-lapis-lazuli: #2466A5;
-    --r3dn-color-void: #14161C;
-    --r3dn-gradient: linear-gradient(168deg, var(--r3dn-color-lapis-lazuli) 0px, 2%, var(--r3dn-color-void) 16% 40%, 92%, var(--r3dn-color-primary) 98% 100%);
+    --r3dn-color-lapis-lazuli: #2466a5;
+    --r3dn-color-void: #14161c;
+    --r3dn-gradient: linear-gradient(
+        168deg,
+        var(--r3dn-color-lapis-lazuli) 0px,
+        2%,
+        var(--r3dn-color-void) 16% 40%,
+        92%,
+        var(--r3dn-color-primary) 98% 100%
+    );
     --r3dn-header-font: "Nova Slim";
 
     --md-primary-fg-color: var(--r3dn-color-primary);
@@ -60,7 +83,7 @@
 
 .md-header {
     /* background: linear-gradient(166deg, #17222b, 90%, #a52466); */
-    background: var(--r3dn-gradient)
+    background: var(--r3dn-gradient);
 }
 
 .md-header__topic:first-child,
@@ -84,5 +107,9 @@ label.md-nav__title {
 
 .md-header__source,
 .md-nav__source {
-    color: rgba(255, 255, 255, .38);
+    color: rgba(255, 255, 255, 0.38);
+}
+
+p {
+    font-weight: 300;
 }
