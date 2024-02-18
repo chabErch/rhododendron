@@ -3,6 +3,12 @@ repo_url: https://github.com/chabErch/rhododendron
 site_author: chaberch
 copyright: Copyright &copy; 2024 chaberch
 
+nav:
+  - Проблемы печати:
+    - Проблемы печати: 'проблемы-печати/проблемы-печати.md'
+    - Слоновья нога L: 'проблемы-печати/слоновья-нога-l.md'
+    - Слоновья нога H: 'проблемы-печати/слоновья-нога-h.md'
+
 theme:
   name: material
   logo: assets/logo-24-24.svg
@@ -12,15 +18,15 @@ theme:
     # Palette toggle for dark mode
     - scheme: slate
       primary: custom
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to light mode
+      # toggle:
+      #   icon: material/lightbulb-outline
+      #   name: Switch to light mode
     # Palette toggle for light mode
-    - scheme: default
-      primary: custom
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
+    # - scheme: default
+    #   primary: custom
+    #   toggle:
+    #     icon: material/lightbulb
+    #     name: Switch to dark mode
 
 extra_css:
   - assets/stylesheets/r3Dn.css
