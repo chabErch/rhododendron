@@ -37,11 +37,17 @@
     src: url("../fonts/Roboto_Mono/RobotoMono-Regular.ttf");
 }
 
-:root > * {
-    --md-primary-fg-color: #a52466;
-    --md-primary-fg-color--light: #a52466;
-    --md-primary-fg-color--dark: #a52466;
-    --md-accent-fg-color: green;
+:root  {
+    --r3dn-color-primary: #a52466;
+    --r3dn-color-lapis-lazuli: #2466A5;
+    --r3dn-color-void: #14161C;
+    --r3dn-gradient: linear-gradient(168deg, var(--r3dn-color-lapis-lazuli) 0px, 2%, var(--r3dn-color-void) 16% 40%, 92%, var(--r3dn-color-primary) 98% 100%);
+    --r3dn-header-font: "Nova Slim";
+
+    --md-primary-fg-color: var(--r3dn-color-primary);
+    /* --md-primary-fg-color--light: var(--r3dn-color-primary); */
+    /* --md-primary-fg-color--dark: var(--r3dn-color-primary); */
+    --md-accent-fg-color: var(--r3dn-color-lapis-lazuli);
 
     --md-text-font: "Roboto";
     --md-code-font: "Roboto Mono";
@@ -49,16 +55,12 @@
 
 [data-md-color-scheme="slate"] {
     /* --md-default-bg-color: #17191F */
-    --md-default-bg-color: #14161c;
-}
-
-:root {
-    --r3dn-header-font: "Nova Slim";
+    --md-default-bg-color: var(--r3dn-color-void);
 }
 
 .md-header {
-    /* background: linear-gradient(160deg, #17222b, 88%, #a52466); */
-    background: linear-gradient(166deg, #17222b, 90%, #a52466);
+    /* background: linear-gradient(166deg, #17222b, 90%, #a52466); */
+    background: var(--r3dn-gradient)
 }
 
 .md-header__topic:first-child,
@@ -71,18 +73,12 @@ label.md-nav__title {
 
 @media screen and (max-width: 76.234375em) {
     .md-nav--primary .md-nav__title[for="__drawer"] {
-        /* background: linear-gradient(160deg, #17222b, 88%, #a52466); */
-        background-color: #17222b;
-        /* color: var(--md-primary-bg-color); */
+        background: linear-gradient(168deg, var(--r3dn-color-lapis-lazuli) 0px, 2%, var(--r3dn-color-void) 20%);
         font-weight: normal;
     }
 
     .md-nav__source {
-        background: linear-gradient(166deg, #17222b, 90%, #a52466);
-        /* background-color: var(--md-primary-fg-color--dark); */
-        /* color: var(--md-primary-bg-color); */
-        /* display: block; */
-        /* padding: 0 .2rem */
+        background: linear-gradient(168deg, var(--r3dn-color-void) 16% 40%, 92%, var(--r3dn-color-primary));
     }
 }
 
