@@ -55,21 +55,20 @@
 
 :root {
     --r3dn-color-primary: #a52466;
-    --r3dn-color-lapis-lazuli: #2466a5;
+    --r3dn-color-secondary: #2466a5;
+    --r3dn-color-space: #1D2733;
     --r3dn-color-void: #14161c;
     --r3dn-gradient: linear-gradient(
         168deg,
-        var(--r3dn-color-lapis-lazuli) 0px,
+        var(--r3dn-color-secondary) 0px,
         2%,
-        var(--r3dn-color-void) 16% 40%,
+        var(--r3dn-color-space) 16% 40%,
         92%,
         var(--r3dn-color-primary) 98% 100%
     );
     --r3dn-header-font: "Nova Slim";
 
-    --md-primary-fg-color: var(--r3dn-color-lapis-lazuli);
-    /* --md-primary-fg-color--light: var(--r3dn-color-primary); */
-    /* --md-primary-fg-color--dark: var(--r3dn-color-primary); */
+    --md-primary-fg-color: var(--r3dn-color-secondary);
     --md-accent-fg-color: var(--r3dn-color-primary);
 
     --md-text-font: "Roboto";
@@ -98,7 +97,7 @@ label.md-nav__title[for=__toc] {
 
 @media screen and (max-width: 76.234375em) {
     .md-nav--primary .md-nav__title[for="__drawer"] {
-        background: linear-gradient(168deg, var(--r3dn-color-lapis-lazuli) 0px, 2%, var(--r3dn-color-void) 20%);
+        background: linear-gradient(168deg, var(--r3dn-color-secondary) 0px, 2%, var(--r3dn-color-void) 20%);
         font-weight: normal;
     }
 
@@ -125,7 +124,24 @@ ul.md-nav__list[data-md-component="toc"],
     font-weight: 400;
 }
 
+/* footer */
+.md-footer {
+    background: linear-gradient(168deg, var(--r3dn-color-void) -24% 9%, 64%, var(--r3dn-color-space))
+}
+
 /* neoteroi */
 [data-md-color-scheme=slate] .nt-card{
     box-shadow: 0 11px 2px 0 rgba(4, 40, 33, 0.14), 0 3px 3px -3px rgba(40, 86, 94, 0.47), 0 1px 8px 0 rgba(36, 102, 165, 0.38);
+}
+
+/* Made with */
+html .md-footer-meta.md-typeset a {
+    color: rgba(255, 255, 255, 0.38);
+}
+.md-copyright {
+    color: rgba(255, 255, 255, 0.12);
+    font-weight: 300;
+}
+.md-footer-meta {
+    background-color: var(--r3dn-color-void);
 }
