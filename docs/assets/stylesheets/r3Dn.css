@@ -67,10 +67,10 @@
     );
     --r3dn-header-font: "Nova Slim";
 
-    --md-primary-fg-color: var(--r3dn-color-primary);
+    --md-primary-fg-color: var(--r3dn-color-lapis-lazuli);
     /* --md-primary-fg-color--light: var(--r3dn-color-primary); */
     /* --md-primary-fg-color--dark: var(--r3dn-color-primary); */
-    --md-accent-fg-color: var(--r3dn-color-lapis-lazuli);
+    --md-accent-fg-color: var(--r3dn-color-primary);
 
     --md-text-font: "Roboto";
     --md-code-font: "Roboto Mono";
@@ -115,6 +115,14 @@ label.md-nav__title[for=__toc] {
 p {
     font-weight: 300;
     letter-spacing: .02em;  /* For Roboto only */
+}
+
+ul.md-nav__list[data-md-component="toc"],
+.md-nav__link[for]:focus,
+.md-nav__link[for]:hover,
+.md-nav__link[href]:focus,
+.md-nav__link[href]:hover {
+    font-weight: 400;
 }
 
 /* neoteroi */

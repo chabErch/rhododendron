@@ -26,8 +26,9 @@ theme:
     repo: fontawesome/brands/github
   palette:
     # Palette toggle for dark mode
-    - scheme: slate
-      primary: custom
+    scheme: slate
+    primary: custom
+    accent: custom
       # toggle:
       #   icon: material/lightbulb-outline
       #   name: Switch to light mode
