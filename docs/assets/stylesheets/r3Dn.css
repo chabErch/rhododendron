@@ -130,6 +130,10 @@ label.md-nav__title[for=__toc] {
         font-weight: normal;
     }
 
+    .md-nav--primary .md-nav__title {
+        background-color: var(--r3dn-color-space);
+    }
+
     .md-nav__source {
         background: linear-gradient(168deg, var(--r3dn-color-void) 16% 40%, 92%, var(--r3dn-color-primary));
     }
