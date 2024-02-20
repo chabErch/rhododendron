@@ -159,9 +159,44 @@ ul.md-nav__list[data-md-component="toc"],
 }
 
 /* neoteroi */
-[data-md-color-scheme=slate] .nt-card{
-    box-shadow: 0 11px 2px 0 rgba(4, 40, 33, 0.14), 0 3px 3px -3px rgba(40, 86, 94, 0.47), 0 1px 8px 0 rgba(36, 102, 165, 0.38);
+@media only screen and (max-width: 460px) {
+    .nt-cards.nt-grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
 }
+
+@media only screen and (min-width: 461px) and (max-width: 680px) {
+    .nt-cards.nt-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+[data-md-color-scheme=slate] .nt-card {
+    background: rgba(29, 39, 51, 0.4);
+    border-radius: 2px;
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.1), 0px 8px 10px 1px rgba(0,0,0,0.1), 0px 3px 14px 2px rgba(0,0,0,0.02)
+}
+
+[data-md-color-scheme=slate] .nt-card:hover {
+    background: linear-gradient(
+        168deg,
+        #2466a57a 0px,
+        2%,
+        var(--r3dn-color-space) 16% 40%,
+        92%,
+        #a5246670 100% 100%
+    );
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.1), 0px 8px 10px 1px rgba(0,0,0,0.1), 0px 3px 14px 2px rgba(0,0,0,0.02);
+}
+
+.nt-card a:hover, .nt-card a:focus {
+    color: unset;
+}
+
+p.nt-card-title {
+    font-weight: unset;
+}
+
 
 /* Made with */
 html .md-footer-meta.md-typeset a {
