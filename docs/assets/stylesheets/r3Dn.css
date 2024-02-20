@@ -111,14 +111,17 @@ label.md-nav__title[for=__toc] {
 .md-header__topic+.md-header__topic[data-md-component="header-topic"] {
     font-family: "Roboto Flex";
     font-optical-sizing: auto;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
     font-variation-settings:
         "slnt" 0,
-        "wdth" 110,
-        "GRAD" -100,
-        "YOPQ" 44;
-    letter-spacing: 0.02em;
+        "wdth" 147,
+        "wght" 480,
+        "GRAD" -72,
+        "XTRA" 323,
+        "YOPQ" 44,
+        "YTLC" 550;
+    letter-spacing: 0.04em;
 }
 
 @media screen and (max-width: 76.234375em) {
@@ -176,12 +179,15 @@ html .md-footer-meta.md-typeset a {
 .md-typeset h1 {
     font-family: "Roboto Flex";
     font-optical-sizing: auto;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-style: normal;
     font-variation-settings:
         "slnt" 0,
-        "wdth" 110,
-        "GRAD" -100,
-        "YOPQ" 44;
-    letter-spacing: 0.02em;
+        "wdth" 147,
+        "wght" 480,
+        "GRAD" -72,
+        "XTRA" 323,
+        "YOPQ" 44,
+        "YTLC" 550;
+    letter-spacing: 0.04em;
 }
