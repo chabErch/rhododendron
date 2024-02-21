@@ -1,2 +1,3 @@
 mkdocs-material>=9.5.9
 neoteroi-mkdocs>=1.0.5
+mkdocs-print-site-plugin>=2.3.6

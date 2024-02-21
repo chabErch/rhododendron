@@ -1,0 +1,10 @@
+@media print {
+    [data-md-color-scheme=slate] .nt-card {
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: unset;
+    }
+
+    #print-site-cover-page > h1 {
+        font-family: "Nova Slim";
+    }
+}

@@ -42,6 +42,7 @@ theme:
 extra_css:
   - assets/stylesheets/neoteroi-mkdocs.css
   - assets/stylesheets/r3Dn.css
+  - assets/stylesheets/print-site-r3Dn.css
 
 markdown_extensions:
   - neoteroi.cards
@@ -49,3 +50,9 @@ markdown_extensions:
 plugins:
   - search:
       lang: ru
+  - print-site:
+      add_to_navigation: true
+      print_page_title: "На печать"
+      add_cover_page: true
+      cover_page_template: "docs/assets/templates/cover-page.tpl"
+      toc_title: "Оглавление"
