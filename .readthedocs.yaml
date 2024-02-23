@@ -5,8 +5,8 @@ build:
   tools:
     python: "3.12"
   commands:
-    pip install -r requirements.txt
-    mkdocs build --clean --site-dir $READTHEDOCS_OUTPUT/html --config-file mkdocs.yml
+    - pip install -r requirements.txt
+    - mkdocs build --clean --site-dir $READTHEDOCS_OUTPUT/html --config-file mkdocs.yml
 
 mkdocs:
   configuration: mkdocs.yml
