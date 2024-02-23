@@ -1,5 +1,67 @@
 {
     "cSpell.words": [
+        "учеткой",
+        "учетку",
         "филамент"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "panel.border": "#2f4053",
+        "sash.hoverBorder": "#2f4053",
+        "sideBar.border": "#2f4053",
+        "statusBar.background": "#1d2733",
+        "statusBar.debuggingBackground": "#33291d",
+        "statusBarItem.hoverBackground": "#2f4053",
+        "statusBarItem.remoteBackground": "#1d2733",
+        "tab.activeBorder": "#2f4053",
+        "titleBar.activeBackground": "#1d2733",
+        "titleBar.inactiveBackground": "#1d273399",
+        "commandCenter.border": "#e7e7e799",
+        "statusBar.debuggingForeground": "#e7e7e7",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "1D2733",
+    "peacock.affectActivityBar": false,
+    "peacock.affectDebuggingStatusBar": true,
+    "peacock.affectEditorGroupBorder": false,
+    "peacock.affectPanelBorder": true,
+    "peacock.affectSashHover": true,
+    "peacock.affectSideBarBorder": true,
+    "peacock.affectStatusAndTitleBorders": false,
+    "peacock.affectStatusBar": true,
+    "peacock.affectTabActiveBorder": true,
+    "peacock.affectTitleBar": true,
+    "peacock.darkForegroundColor": "#66A524",
+    "peacock.keepBadgeColor": false,
+    "peacock.keepForegroundColor": false,
+    "peacock.squigglyBeGone": false,
+    "cSpell.language": "en,ru,ru-RU",
+    "prettier.printWidth": 80,
+    "prettier.proseWrap": "preserve",
+    "markdownlint.config": {
+        "code-block-style": {
+            "style": "fenced"
+        },
+        "code-fence-style": {
+            "style": "backtick"
+        },
+        "emphasis-style": {
+            "style": "underscore"
+        },
+        "list-marker-space": {
+            "ul_multi": 1,
+            "ul_single": 1
+        },
+        "strong-style": {
+            "style": "asterisk"
+        },
+        "ul-indent": {
+            "indent": 4
+        },
+        "ul-style": {
+            "style": "dash"
+        }
+    }
 }
