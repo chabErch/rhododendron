@@ -41,8 +41,10 @@ markdown_extensions:
   - pymdownx.tilde
   - toc:
       permalink: "#"
-      # - markdown.extensions.toc:
-      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+      toc_depth: 2
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 plugins:
   - search:
