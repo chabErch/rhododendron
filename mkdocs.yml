@@ -10,6 +10,7 @@ nav:
     - Слоновья нога H: 'проблемы-печати/слоновья-нога-h.md'
   - Contributing:
     - Инструментарий: 'contributing/инструментарий.md'
+    - Проект: 'contributing/проект.md'
 
 theme:
   name: material
@@ -22,6 +23,7 @@ theme:
     - navigation.footer
     - toc.follow
     - toc.integrate
+    - content.code.copy
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -36,6 +38,13 @@ extra_css:
 
 markdown_extensions:
   - neoteroi.cards
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.smartsymbols
   - pymdownx.tilde
@@ -45,6 +54,11 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
 
 plugins:
   - search:

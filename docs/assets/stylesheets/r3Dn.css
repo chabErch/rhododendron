@@ -230,3 +230,12 @@ html .md-footer-meta.md-typeset a {
         "YTLC" 550;
     letter-spacing: 0.04em;
 }
+
+/* List numeration style */
+.md-typeset ol ol,.md-typeset ul ol {
+    list-style-type: decimal
+}
+
+.md-typeset ol ol ol,.md-typeset ul ol ol {
+    list-style-type: decimal
+}

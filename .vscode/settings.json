@@ -1,9 +1,5 @@
 {
-    "cSpell.words": [
-        "учеткой",
-        "учетку",
-        "филамент"
-    ],
+    "cSpell.words": ["учеткой", "учетку", "филамент"],
     "workbench.colorCustomizations": {
         "panel.border": "#2f4053",
         "sash.hoverBorder": "#2f4053",
@@ -63,5 +59,6 @@
         "ul-style": {
             "style": "dash"
         }
-    }
+    },
+    "editor.rulers": [80]
 }
