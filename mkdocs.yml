@@ -36,6 +36,7 @@ extra_css:
   - assets/stylesheets/neoteroi-mkdocs.css
   - assets/stylesheets/r3Dn.css
   - assets/stylesheets/print-site-r3Dn.css
+  - assets/stylesheets/rtd.css
 
 markdown_extensions:
   - neoteroi.cards
