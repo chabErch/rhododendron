@@ -1,5 +1,12 @@
 {
-    "cSpell.words": ["учеткой", "учетку", "филамент"],
+    "cSpell.words": [
+        "Недоэкструзия",
+        "слайсере",
+        "учеткой",
+        "учетку",
+        "филамент",
+        "филамента"
+    ],
     "workbench.colorCustomizations": {
         "panel.border": "#2f4053",
         "sash.hoverBorder": "#2f4053",
